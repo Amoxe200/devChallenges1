@@ -1,0 +1,161 @@
+$desktop:1200px;
+$laptop:1024px;
+$tablet:768px;
+$phone:480px;
+
+body
+{
+    background-color : #fff;
+}
+
+#section
+{
+    position: relative;
+}
+.title
+{
+    font-family: 'Inconsolata', monospace;
+    color: #333333;
+    font-size: 24px;
+    margin-left: 80px;
+    padding: 10px 10px;
+}
+.cont
+{
+    position: relative;
+}
+
+.cont .image
+{
+    position: absolute;
+    left: 170px;
+    margin: 90px;
+    width: 30%;
+}
+
+
+.cont h1
+{
+    position: absolute;
+    left: 700px;
+    margin: 85px 5px;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    color: #333333;
+    display: inline;
+}
+
+.cont .msg
+{
+    position: absolute;
+    left: 700px;
+    margin: 85px 5px;
+    text-align: center;
+    font-family: 'Space Mono';
+    font-weight: 900;
+    color: #333333;
+    display: inline;
+}
+
+.cont p
+{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    left: 690px;
+    top: 210px;
+    font-family: 'Space Mono';
+    font-weight: normal;
+    font-style: normal;
+    letter-spacing: -0.035rem;
+    color: #4F4F4F;
+    size: 24px;
+    line-height: 36px;
+    width: 381px;
+    height: 108px;
+}
+
+.cont span
+{
+    display: block;
+    text-align: left;
+}
+
+.button
+{
+    position: absolute;
+    left: 720px;
+    top: 350px;
+    width: 216px;
+    height: 68px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333333;
+    color: white;
+    font-family: 'Space Mono';
+}
+
+@media screen and (max-width : 480px) {
+    
+    .title
+    {
+        position: absolute;
+        text-align: center;
+        width: 900px;
+        font-size: 50px;
+    }
+
+    .cont .image
+    {
+        position: absolute;
+        width: 230%;
+        top: 100px;
+        left: 0;
+        text-align: center;
+    }
+
+    .cont .msg
+    {
+        font-family: 'Space Mono';
+        position: absolute;
+        display: inline;
+        font-weight: 900;
+        width: 799px;
+        height: 500px;
+        top: 900px;
+        left: 90px;
+        font-size: 80px;
+    }
+
+    .cont p
+    {
+        position: absolute;
+        top: 1210px;
+        left: 100px;
+        padding: 10px;
+        font-family: 'Space Mono';
+        font-weight: normal;
+        font-style: normal;
+        letter-spacing: -0.035rem;
+        color: #4F4F4F;
+        font-size: 30px;
+        line-height: 36px;
+        width: 581px;
+        height: 108px;
+    }
+
+    .button
+    {
+        position: absolute;
+        left: 390px;
+        top: 1500px;
+        width: 216px;
+        height: 68px;
+        border-radius: 5px;
+        border: none;
+        background-color: #333333;
+        color: white;
+        font-family: 'Space Mono';
+    }
+}
